@@ -85,3 +85,12 @@ nav a{
 nav a:hover{
     background: #000;
 }
+
+.logo img{
+    width:100px;
+    height: 90px;
+    border-radius: 50%;
+    position:absolute;
+    top:calc(4.5%);
+    left: calc(0%);
+}
