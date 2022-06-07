@@ -15,6 +15,71 @@ margin: 0 auto;
     padding: 0 2%;
 } 
 
+.orderbox{
+
+    width:500px;
+
+    height: 430px;
+
+    background: #e8e8e8;
+
+    color:#fff;
+
+    top:50%;
+
+    left:50%;
+
+    position: absolute;
+
+    transform: translate(-50%,-50%);
+
+    box-sizing:border-box;
+
+}
+
+
+.orderbox input{
+
+    width:400px;
+
+}
+
+
+
+.orderbox input[type="submit"]
+
+{
+
+    border:none;
+
+    outline:none;
+
+    height:40px;
+
+    background:#0082e6;
+
+    color:#fff;
+
+    font-size:18px;
+
+    border-radius:20px;
+
+}
+
+
+
+.orderbox input[type="submit"]:hover
+
+{
+
+    cursor:pointer;
+
+    background:#90908d;
+
+    color:#000;
+
+}
+
 #sidemenu{
     float:right;
     width:31%;
