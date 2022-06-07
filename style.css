@@ -4,7 +4,7 @@ body{
 }
 
 #container{
-max-width: 1140px;
+max-width:inherit;
 margin: 0 auto;
 }
 
@@ -12,9 +12,8 @@ margin: 0 auto;
     float:left;
     width: 61%;
     background: #fff;
-    border-bottom: 20px solid #000000;
     padding: 0 2%;
-}
+} 
 
 #sidemenu{
     float:right;
@@ -53,8 +52,14 @@ margin: 0 auto;
     width: 100%;
     clear: both;
     margin: 0 auto;
-    background: #ddd;
-    text-align: center;
+    background:#ddd ;
+    text-align:center;
+    margin:0 auto;
+    padding: 20px;
+    padding-bottom:230px;
+    border-top:20px solid #000000;
+   
+
 }
 nav{
     background-color: #333;
@@ -64,6 +69,7 @@ nav{
 }
 nav ul{
     margin:0;
+    
     padding:0;
 }
 nav ul li{
@@ -84,4 +90,67 @@ nav a{
 
 nav a:hover{
     background: #000;
+}
+
+
+#contact-form{
+    background-color:#dfdfdf;
+    padding:20px;
+    margin:20px auto;
+    border:1px solid #000000;
+}
+#contact-form label{
+    display: block;
+}
+
+#contact-form textarea{
+    height:200px;
+    width:300px;
+}
+#contact-form input,#contact-form textarea{
+    font-size:16px;
+    margin-bottom: 5px;
+}
+
+#leftfooter{
+  float:left;
+    width:31%;
+    padding: 0 2%;  
+}
+
+#leftfooter li{
+    list-style:none;
+    display: block;
+    width:100%;
+    padding:3px 0;
+}
+#leftfooter ul a{
+    text-decoration: none;
+    color:steelblue;
+}
+#leftfooter li:hover{
+    background: #000;
+    color:white;
+}
+
+
+#rightfooter{
+  float:right;
+    width:31%;
+    padding: 0 2%;  
+}
+
+#rightfooter li{
+    list-style:none;
+    display: block;
+    width:100%;
+    padding:3px 0;
+}
+#rightfooter ul a{
+    text-decoration: none;
+    color:steelblue;
+}
+#rightfooter li:hover{
+    background: #000;
+    color:white;
 }
